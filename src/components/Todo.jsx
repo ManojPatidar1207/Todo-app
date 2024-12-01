@@ -50,8 +50,8 @@ export default function TodoApp() {
                 status === "loading"
                   ? "#f0f0f0"
                   : status === "error"
-                  ? "#f8d7da"
-                  : "#d1e7dd",
+                  ? "#cd5c5c"
+                  : "#8fbc8f",
             }}
           >
             {status === "loading"
@@ -64,6 +64,18 @@ export default function TodoApp() {
       </div>
 
       <div style={{ width: 200 }}>
+        <h1
+          style={{
+            fontSize: "30px",
+            color: "orange",
+            marginBottom: "10px",
+            padding: "10px",
+            textShadow: "0 0 10px 0 rgba(0, 0, 0, 0.5)",
+            boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.5)",
+          }}
+        >
+          Todo App
+        </h1>
         <button
           onClick={handleAddNow}
           style={{ width: "100%", marginBottom: 8 }}

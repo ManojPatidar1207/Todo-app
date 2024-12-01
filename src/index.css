@@ -13,6 +13,17 @@ body {
   padding: 0;
 }
 
+button {
+  background-color: #eff0f7;
+  color: #181717;
+  font-family: Avenir-Roman, sans-serif;
+  font-weight: 600;
+  margin: 10px 0;
+  padding: 10px 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+}
 a {
   color: #181717;
   text-decoration: none;
